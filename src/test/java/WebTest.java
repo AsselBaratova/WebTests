@@ -19,8 +19,8 @@ public class WebTest {
         Thread.sleep(3000);
 
         String actualResult = driver.getCurrentUrl();
-
         Assert.assertEquals(actualResult, expectedResult);
+
 
 
     driver.close();
